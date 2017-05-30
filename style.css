@@ -1,0 +1,27 @@
+html, body{
+	height: 100%;
+}
+
+#container{
+	position: absolute;
+	width: 1192px;
+	height: 100hv;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	background-color: red;
+
+}
+
+#left-panel{
+	background-color: #2d2d2d;
+	min-height: 100vh;
+}
+
+#right-panel{
+	background-color: #ffffff;
+	height: 100vh;
+}
