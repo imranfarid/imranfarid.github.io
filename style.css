@@ -26,3 +26,28 @@ html, body{
 	background-color: #fff;
 	height: 100vh;
 }
+
+#picture-container{
+    
+}
+
+#picture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#details{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#info-container{
+    color: #fff;
+}
