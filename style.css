@@ -20,26 +20,34 @@ html, body{
 #left-panel{
 	background-color: #2d2d2d;
 	min-height: 100vh;
+    
+    webkit-box-shadow: -5px 0 15px -2px #888;
+          box-shadow: -5px 0 15px -2px #888;
 }
 
 #right-panel{
 	background-color: #fff;
 	height: 100vh;
+    
+    webkit-box-shadow: 5px 0 15px -2px #888;
+          box-shadow: 5px 0 15px -2px #888;
 }
 
 #picture-container{
-    
+    padding-top: 30px;
 }
 
 #picture{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     border: 5px solid #fff;
     
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
+    
 }
 
 #details{
@@ -50,4 +58,82 @@ html, body{
 
 #info-container{
     color: #fff;
+    
+    margin: auto;
+    padding-left: 10%;
+    width: 100%;
+    
+    padding-top: 20px;
+    
+    font-family: 'Raleway';
+}
+
+#info{
+    
+}
+
+#info h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+
+#social-info h4{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#info-block-container{
+    margin: 5px;
+    
+}
+
+#block-1{
+    width: 10%;
+    float: left;
+    height: 30px;
+    margin-top: 0px;
+
+}
+
+#block-2{
+    margin-left: 15%;
+    height: 50px;
+    padding-left: 5px;
+    
+    line-height: 15px
+}
+
+#title{
+    font-family: 'Raleway', sans-serif;
+    
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#details{
+    
+}
+
+#title h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #000;
+    font-weight: 800;
+    font-stretch: expanded;
+    
+    margin-bottom: -25px;
+    
+}
+
+#sub-title h3{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#sub-title{
+    margin: 0px;
+    padding: 0px;
 }
