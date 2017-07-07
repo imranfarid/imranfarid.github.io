@@ -1,6 +1,23 @@
 html, body{
 	height: 100%;
 	background-color: #e6e9ec !important;
+    
+}
+
+#notify span{
+    position: absolute;
+    bottom: 0px;
+    
+    height: 35px;
+    width: 100%;
+    background-color: #282828;
+    z-index: 1;
+    opacity: 0.5;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Raleway';
+    font-style: oblique;
+    color: #fff;
 }
 
 #container{
@@ -101,6 +118,15 @@ html, body{
 .info-details{
     color: whitesmoke;
     font-size: 0.95em;
+}
+
+.info-details a{
+    color: whitesmoke;
+}
+
+.info-details a:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 .social-details{
