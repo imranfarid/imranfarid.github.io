@@ -11,11 +11,17 @@
     
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
 		
-	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-    <div id="notify">
+    <!-- <div id="notify">
         <span>Work in progress! Not responsive.</span>
+    </div> -->
+    <div class="overlay" >
+        <div class="msg-box">
+            <span><p>Work in progress! Non-responsive.</p></span>
+        </div>
+        
     </div>
 	<div id="container">
 		<div id="left-panel" class="col-md-3">
@@ -31,7 +37,7 @@
                         </div>
                     <div id="block-2">
                         <span class="info-title"><strong>Name</strong></span><br />
-                        <span class="info-details">Imran Farid</span><br />
+                        <span class="info-details"><a href="https://goo.gl/photos/qKFvFA6NUGspXhsQ8" target="_blank">Imran Farid</a></span><br />
                     </div>
                     </div>
                     
@@ -317,4 +323,16 @@
 		</div>		
 	</div>
 </body>
+    <script>
+        (function($) {
+            $('article').on('click', function() {
+                if($('.overlay').length < 1) {
+                    $('body').append('<span class="overlay"></span>');
+                }
+            });
+            $(document).on('click','.overlay', function() {
+                $('.overlay').remove();   
+            });
+        })(jQuery);
+    </script>
 </html>
