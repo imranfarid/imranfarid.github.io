@@ -7,9 +7,8 @@ html, body{
 #notify span{
     position: absolute;
     bottom: 0px;
-    
     height: 35px;
-    width: 100%;
+    //width: 100%;
     background-color: #282828;
     z-index: 1;
     opacity: 0.5;
@@ -20,80 +19,117 @@ html, body{
     color: #fff;
 }
 
-#container{
-	position: absolute;
-	width: 1128px;
-	height: 100hv;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-
-	margin: auto;
+.container{
+	height: 100%;
 	background-color: red;
-
 }
 
 /* Left panel */
 
-#left-panel{
-	background-color: #2d2d2d;
-	min-height: 100vh;
-    
-    webkit-box-shadow: -5px 0 15px -2px #888;
-          box-shadow: -5px 0 15px -2px #888;
-}
 
 
-#picture-container{
+
+.img-container{
+    background-color: #2d2d2d;
     padding-top: 30px;
+    
 }
 
-#picture{
+.img{
+    display: block;
     height: 150px;
     width: 150px;
+    margin: auto;
     border-radius: 50%;
     border: 4px solid #fff;
+}
+
+.title{
+    background-color: #fff;
     
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
+}
+
+.title-container{
+    padding: 30px 0px 35px 30px;
+}
+
+.name{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.name h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #000;
+    font-weight: 800;
+/*  font-stretch: expanded;*/
+    letter-spacing: 2px; 
+    margin-bottom: -25px;
+}
+
+.sub-title h3{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#sub-title{
+    margin: 0px;
+    padding: 0px;
 }
 
 
 #info-container{
     color: #fff;
-    
+    background-color: #2d2d2d;
     margin: auto;
-    padding-left: 10%;
-    width: 100%;
-    
+    //padding-left: 5%;
+    //width: 100%;
     padding-top: 20px;
-    
-    
     font-family: 'Raleway';
+    //height: 60vw;
+}
+
+.info-section{
+    //height: 100vh;
+    min-height: 750px;
 }
 
 #info{
     
 }
+/*
+#block-1{
+    //width: 10%;
+    float: left;
+    height: 30px;
+    margin-top: 0px;
+
+}
+
+#block-2{
+    margin-left: 15%;
+    height: 50px;
+    padding-left: 5px;
+    
+    line-height: 15px
+}
+*/
 
 #info h4 {
     text-transform: uppercase;
     font-weight: 400;
     padding-bottom: 10px;
-    
     letter-spacing: 2px;
-    
 }
 
 #social-info h4{
     text-transform: uppercase;
     font-weight: 400;
     padding-bottom: 10px;
-    
     letter-spacing: 2px;
 }
 
@@ -155,77 +191,18 @@ html, body{
     
 }
 
-#block-1{
-    width: 10%;
-    float: left;
-    height: 30px;
-    margin-top: 0px;
 
-}
-
-#block-2{
-    margin-left: 15%;
-    height: 50px;
-    padding-left: 5px;
-    
-    line-height: 15px
-}
 
 /* Right panel */
 
 #right-panel{
 	background-color: #fff;
-	height: 100vh;
-    
-    webkit-box-shadow: 5px 0 15px -2px #888;
-          box-shadow: 5px 0 15px -2px #888;
+	//height: 100vh;
+    //webkit-box-shadow: 5px 0 15px -2px #888;
+      //    box-shadow: 15px 0 20px -2px #888;
 }
 
-#details{
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    
-    padding-top: 40px;
-    padding-left: 40px;
-}
 
-#title{
-    font-family: 'Raleway', sans-serif;
-    
-    
-    margin: 0px;
-    padding: 0px;
-    
-}
-
-#details{
-    
-}
-
-#title h1{
-    text-transform: uppercase;
-    font-size: 60px;
-    color: #000;
-    font-weight: 800;
-/*    font-stretch: expanded;*/
-    letter-spacing: 2px; 
-    
-    margin-bottom: -25px;
-    
-    
-    
-}
-
-#sub-title h3{
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-#sub-title{
-    margin: 0px;
-    padding: 0px;
-}
 
 /* details */
 
