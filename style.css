@@ -21,7 +21,7 @@ html, body{
 
 .container{
 	height: 100%;
-	background-color: red;
+	background-color: #2d2d2d;
 }
 
 /* Left panel */
@@ -85,12 +85,10 @@ html, body{
 #left-btm-container{
     color: #fff;
     background-color: #2d2d2d;
-    //margin: auto;
-    //padding-left: 5%;
     //width: 100%;
-    //padding-top: 20px;
+    padding: 40px 40px 40px 40px;
     font-family: 'Raleway';
-    //height: 60vw;
+    //height: 100vw;
 }
 
 .btm-section{
@@ -98,58 +96,25 @@ html, body{
     //min-height: 750px;
 }
 
-#info{
-    
-}
-/*
-#block-1{
-    //width: 10%;
-    float: left;
-    height: 30px;
-    margin-top: 0px;
 
-}
-
-#block-2{
-    margin-left: 15%;
-    height: 50px;
-    padding-left: 5px;
-    
-    line-height: 15px
-}
-*/
-
-#info h4 {
+.info-sct h4 {
     text-transform: uppercase;
     font-weight: 400;
     padding-bottom: 10px;
     letter-spacing: 2px;
 }
 
-#social-info h4{
+.social-sct h4{
     text-transform: uppercase;
     font-weight: 400;
     padding-bottom: 10px;
     letter-spacing: 2px;
 }
-
-
 
 #info span{
     color: #fff;
 }
 
-#social-info a{
-    
-}
-
-.info-title{
-    
-}
-
-.social-title{
-    
-}
 
 .info-details{
     color: whitesmoke;
@@ -195,7 +160,6 @@ html, body{
 }
 
 
-
 /* Right panel */
 
 #right-panel{
@@ -210,9 +174,10 @@ html, body{
 /* details */
 
 #cv-container{
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 40px 40px 40px 40px;
+    //padding-top: 40px;
+    //padding-left: 40px;
+    //padding-right: 40px;
 }
 
 #cv-inner-container{
@@ -415,6 +380,8 @@ html, body{
         color: #e2e2e2;
         font-size: 15px;
     }
+    
+    
     
     
 }
